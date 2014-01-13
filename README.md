@@ -15,3 +15,6 @@ To specify the output file name, pass it in as an argument:
 
     > QuickDoc.exe inputFile.md outputFile.htm
 
+### Notes:
+
+Because underscores are so prevalent in the documentation that I write, I am overriding Markdown's functionality to use underscores as delimiters for italicizing. Use asterisks for italicizing, or submit a pull request and bake in some options parameters!
