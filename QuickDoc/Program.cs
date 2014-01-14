@@ -22,7 +22,7 @@ namespace QuickDoc
 				string inputFileName;
 				string outputFileName;
 
-				if (args[0] == null)
+				if (args.Length == 0)
 				{
 					throw new ArgumentException("Usage: QuickDoc.exe [Markdown input filename] [optional output filename]");
 				}
