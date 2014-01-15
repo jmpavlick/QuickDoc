@@ -6,4 +6,4 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 </style>
 </head>
 <body>
-	<div style="width: 75%; height: 100%; margin-left: auto; margin-right: auto; background-color: rgba(240, 235, 235, 0.22); padding: 20 20 20 20;">
+	<div style="width: 75%; margin-left: auto; margin-right: auto; background-color: rgba(240, 235, 235, 0.22); padding: 20 20 20 20;">
