@@ -50,9 +50,7 @@ namespace QuickDoc
 				// read in Markdown file from args and append lines
 				using (StreamReader reader = new StreamReader(inputFileName))
 				{
-					// since we use underscores a lot, we're going to just go ahead and escape them all
-					// use asterisks for italicizing if you need to do so
-					sb.AppendLine(markdown.Transform(reader.ReadToEnd().Replace(@"_", @"\_")));
+					sb.AppendLine(markdown.Transform(reader.ReadToEnd()));
 				}
 
 				// read in footer template
