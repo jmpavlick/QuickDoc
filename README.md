@@ -14,3 +14,6 @@ QuickDoc will create an output file with the same name as the input file, but wi
 To specify the output file name, pass it in as an argument:
 
     > QuickDoc.exe inputFile.md outputFile.htm
+
+## Releases:
+The current version of QuickDoc is v1.0. Grab the release [here](https://github.com/angrysql/QuickDoc/releases).
